@@ -1,0 +1,39 @@
+/* Style all paragraphs */
+p {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style all level two headers */
+h2 {
+    color: #1f4e79;
+    font-family: Arial, sans-serif;
+    margin-top: 25px;
+}
+
+/* Style the table and give it a border */
+table,
+th,
+td {
+    border: 1px solid #555555;
+    border-collapse: collapse;
+    padding: 8px;
+}
+
+/* Style the third paragraph using its ID */
+#third-paragraph {
+    background-color: #eeeeee;
+    padding: 10px;
+}
+
+/* Class rule applied to the main heading */
+.highlight {
+    color: #990000;
+}
+
+/* Size the Smith School logo */
+img.logo {
+    width: 300px;
+    height: 100px;
+}
